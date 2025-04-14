@@ -1,0 +1,39 @@
+Étape 1 : Création de l'Albedo
+Description : À partir des références et des templates fournis, reproduire sur Photoshop l’apparence des différents boutons demandés.
+Instructions :
+Reproduire fidèlement l’apparence des boutons.
+Indiquer la référence associée à chaque bouton en haut à droite de son emplacement.
+
+Étape 2 : Création de la Height Map
+Description : Pour les boutons nécessitant une height map, peindre un dégradé de gris directement sur le même fichier que l'Albedo.
+Les zones plus claires représentent des élévations, les zones plus sombres des creux.
+
+Étape 3 : Création de la Normal Map et de l'ORM
+Outils utilisés : Substance Designer ou Photoshop.
+Instructions :
+Normal Map : Convertir la Height Map en Normal Map sur Substance Designer.
+ORM Map : Définir les canaux suivants :
+Occlusion : (R dans l’ORM) - Générée automatiquement à partir de la Height Map
+Roughness : (G dans l’ORM).
+Metalness : (B dans l’ORM).
+Appliquer ces réglages pour les boutons nécessitant des valeurs spécifiques.
+
+Étape 4 : Création des Atlas
+Description : Regrouper 25 boutons par Atlas.
+Les étapes précédentes doivent être répétées jusqu’à ce que tous les boutons soient intégrés.
+Chaque Atlas doit contenir les fichiers suivants :
+Albedo Map
+Normal Map
+ORM Map
+Height Map
+
+Rendus à ce stade :
+Atlas réalisés :
+25 boutons
+25 boutons
+4 boutons
+Fichiers générés pour chaque Atlas :
+Albedo Map
+Normal Map
+ORM Map
+Height Map (rangement).
